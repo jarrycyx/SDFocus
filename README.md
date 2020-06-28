@@ -18,3 +18,7 @@
 6. 分享 发现有趣的文章您可随时便捷的与人分享。
 7. 搜索 有什么文章想要与人分享却找不到了？您只需要输入关键词，所有文章一览无余！
 8. 反馈 有什么好建议？有什么想要的功能？您只需要写下自己的意见，我们一定尽力满足您的需要！
+
+
+![1](https://github.com/jarrycyx/SDFocus/blob/master/%E5%AE%A3%E4%BC%A0%E6%9D%90%E6%96%99/1%20(%E5%A4%8D%E5%88%B6).png)
+![2](https://github.com/jarrycyx/SDFocus/blob/master/%E5%AE%A3%E4%BC%A0%E6%9D%90%E6%96%99/2%20(%E5%A4%8D%E5%88%B6).png)
