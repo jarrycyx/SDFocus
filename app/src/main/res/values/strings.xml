@@ -1,0 +1,196 @@
+﻿
+<resources>
+    <string name="app_name">树德Focus</string>
+    <string name="version_name">ALPHA_2.0.0</string>
+    <string name="version_code">57</string>
+    <string name="update_log">
+        更新日志：
+        1.修复了加入精选无权限限制、删除无提示的BUG
+        2.修复了反馈图标显示错误的BUG
+        3.加入应用内搜索功能，可以搜索所有分类的标题、摘要、内容
+        4.修改了我的帖子功能实现方案，现在可以显示包括以前发送的所有帖子
+        5.加入防止水贴功能，评论30秒内只能发一条，帖子5分钟内只能发一篇（开发组除外）
+        6.阅读页面帖子可以被长按复制
+        7.大大减少了精选页面顺序错乱的几率
+        8.大幅修改关于页面样式
+        9.修改点击通知栏消息进入个人页面
+        9.修复了许多BUG，合并许多重复代码，修改了一些小图标
+    </string>
+
+
+    <string-array name="categories_name">
+        <item>社团动态</item>
+        <item>近期活动</item>
+    </string-array>
+    <string-array name="categories_id">
+        <item>Test</item>
+        <item>huodong</item>
+    </string-array>
+    <string-array name="shetuan_name">
+        <item>社团</item>
+        <item>学生会</item>
+    </string-array>
+    <string-array name="shetuan_id">
+        <item>shetuan</item>
+        <item>bumen</item>
+    </string-array>
+
+    <string-array name="list_preference">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string name="shetuan_id">shetuan</string>
+
+    <string-array name="user_level_list">
+        <item>开发组</item>
+        <item>内测组</item>
+        <item>普通用户</item>
+        <item>编辑组</item>
+    </string-array>
+    <string-array name="user_level_color">
+        <item>#b39ddb</item>
+        <item>#ffb74d</item>
+        <item>#91a7ff</item>
+        <item>#cddc39</item>
+    </string-array>
+
+    <string-array name="user_score_level_list">
+        <item>Pt</item>
+        <item>Cu</item>
+        <item>H</item>
+        <item>Fe</item>
+        <item>Zn</item>
+        <item>Al</item>
+        <item>Mg</item>
+        <item>Na</item>
+        <item>Ca</item>
+        <item>K</item>
+        <item>Cs</item>
+    </string-array>
+    <string-array name="user_score_level_color">
+        <item>#b39ddb</item>
+        <item>#ffb74d</item>
+        <item>#91a7ff</item>
+        <item>#cddc39</item>
+        <item>#b39ddb</item>
+        <item>#ffb74d</item>
+        <item>#91a7ff</item>
+        <item>#cddc39</item>
+        <item>#91a7ff</item>
+        <item>#cddc39</item>
+        <item>#91a7ff</item>
+    </string-array>
+
+
+    <string name="category_1">近期活动</string>
+    <string name="category_2">社团动态</string>
+    <string name="category_3">学校通知</string>
+    <string name="category_4">新闻精选</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="daidalos_hello">Hello World!</string>
+    <string name="daidalos_app_name">aFileDialog</string>
+    <color name="daidalos_gray">#888</color>
+    <string name="daidalos_select">Select</string>
+    <string name="daidalos_cancel">Cancel</string>
+    <string name="daidalos_ok">OK</string>
+    <string name="daidalos_new_file">New</string>
+    <string name="daidalos_create_file">Create file</string>
+    <string name="daidalos_create_folder">Create folder</string>
+    <string name="daidalos_accept">Accept</string>
+    <string name="daidalos_enter_file_name">Enter the name of the file that you want to create</string>
+    <string name="daidalos_enter_folder_name">Enter the name of the folder that you want to create</string>
+    <string name="daidalos_yes">Yes</string>
+    <string name="daidalos_no">No</string>
+    <string name="daidalos_confirm_select_file">Are you sure that you want to select the file \'$file_name\'?</string>
+    <string name="daidalos_confirm_create_file">The file \'$file_name\' do not exists, are you sure that you want to create it?</string>
+    <string name="daidalos_confirm_select_folder">Are you sure that you want to select the folder \'$file_name\'?</string>
+    <string name="daidalos_confirm_create_folder">The folder \'$file_name\' do not exists, are you sure that you want to create it?</string>
+    <color name="daidalos_backgroud">#000</color>
+    <color name="daidalos_active_file">#fff</color>
+    <color name="daidalos_inactive_file">#888</color>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="source_code">Show Source Code</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_picture_yulan">PictureYulanActivity</string>
+
+
+
+</resources>
